@@ -1,0 +1,125 @@
+.container{
+    width: 100%;
+    height: 905px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    
+}
+.img{
+    width: 343px;
+    height: 599px;
+    margin-left: 289px;
+    padding-top: 85px;
+}
+.main-body{
+    width: 374px;
+    height: 381px;
+    margin-right: 274px;
+    margin-top: 91px;
+    background-color: #fff;
+    float: right;
+}
+.small-body{
+    width: 374px;
+    height: 72px;
+    margin-right: 274px;
+    margin-top: -199px;
+    background-color: #fff;
+    float: right;
+}
+.para{
+    padding-left: 811px;
+    margin-top: -122px;
+}
+.img1{
+    width: 162px;
+    height: 47px;
+    padding-left: 677px;
+    margin-top: 4px;
+}
+
+.img2{
+  margin-bottom: 114px;
+  width: 175px;
+    height: 63px;
+    padding-left: 874px;
+    margin-top: -91px;
+}
+.h1{
+    margin-left: 62px;
+    font-size: 33px;
+    font-variant: ruby;
+    font-style: italic;
+    font-family: Lucida Handwriting;
+    margin-top: 19px;
+
+}
+.input1{
+   border-radius: 4px;
+   padding-left: 15px;
+   width: 254px;
+    height: 36px;
+    margin-left: 39px;
+    margin-top: 21px;
+    font-size: 14px;
+}
+.input2{
+    border-radius: 4px;
+    padding-left: 15px;
+    width: 254px;
+     height: 36px;
+     margin-left: 39px;
+     margin-top: 11px;
+     font-size: 14px;
+ }
+  .input3{
+    border-radius: 4px;
+    padding-left: 2px;
+    width: 273px;
+    height: 36px;
+    margin-left: 39px;
+    margin-top: 19px;
+    font-size: 14px;
+    background-color:#80bfff
+
+}
+.hr1{
+    margin-left: 10px;
+    width: 161px;
+    margin-top:  22px;
+}
+.hr2{
+    margin-left: 194px;
+    width: 169px;
+    margin-top: -40px;
+}
+.para1{
+    margin-left: 177px;
+    margin-top: -22px;
+}
+.img3{
+    width: 22px;
+    height: 22px;
+    margin-top: -24px;
+    margin-left: 67px;
+}
+.link1{
+    width: 22px;
+    height: 22px;
+    margin-top: -24px;
+    margin-left: 11px;
+    text-decoration: none;
+}
+.para2{
+    margin-left: 110px;
+}
+.para3{
+    margin-left: 39px;
+    font-size: 19px;
+    margin-top: 19px;
+}
+.link2{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 19px;
+    text-decoration: none;
+}

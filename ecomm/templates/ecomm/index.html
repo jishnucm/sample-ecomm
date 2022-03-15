@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/insta.css'%}" type="text/css">
+</head>
+<body>
+    <div class="container">
+
+    <img class="img" src="{% static 'images/d6bf0c928b5a.jpg'%}">
+    <div class="main-body">
+     <h1 class="h1">Instagram</h1>
+     <form id="form">
+     <input name="username" class="input1" type="text" placeholder="phone number,username,email">
+     <input  name="password"class="input2" type="text" placeholder="password">
+     <input name="login" class="input3" type="submit" value="Log In">
+     </form>
+     <hr class="hr1"><p class="para1">or</p><br>
+     <hr class="hr2"><br>
+     <img class="img3" src="fb3.png"> <a class="link1" href="https://www.facebook.com">Log In With Facebook</a>
+     <p class="para2">forgot password?</p>
+    </div>
+    <div class="small-body">
+      <p class="para3">Don't Have An Account<a class="link2" href="{% url 'signup' %}">Sign Up</a></p>
+    </div>
+    <p class="para">Get The App</p>
+    <a link="https://www.apple.com/in/app-store"><img class="img1" src="app3.png"></a> <a link="https://play.google.com"><img class="img2" src="{% static 'images/play2.png'%}"></a>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="insta.js"></script>   
+    </div>
+</body>
+</html>
